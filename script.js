@@ -18,10 +18,10 @@ class Employee extends Person {
 	}
 }
 
-const person = new Person("Shlok", 24);
+const person = new Person("Alice", 25);
 person.greet();
 
-const employee = new Employee("Sourabh", 24, "Senior Developer");
+const employee = new Employee("Bob", 30, "Manager");
 employee.jobGreet();
 
 // Do not change code below this line
